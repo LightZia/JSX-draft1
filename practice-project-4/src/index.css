@@ -1,0 +1,102 @@
+*{
+  /* font-family: 'Courier New', Courier, monospace; */
+  color: #fff;
+}
+
+body{
+  background: #e2feff
+}
+
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: 1%; */
+  padding: 15px;
+}
+
+.card{
+  display: flex;
+  width: 300px;
+  height: 420px;
+  background-color: #624c4c;
+  border-radius: 35px;
+  /* background-image: url('https://imgs.search.brave.com/ovj939fNN_Z9sxxjULLMinawZp59FWMqoQi2h9NbfJc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9h/YnN0cmFjdC1jaHJv/bWF0aWMtZ3JhZGll/bnRfMjMtMjE1MTky/MDYzMS5qcGc_c2Vt/dD1haXNfaHlicmlk/Jnc9NzQwJnE9ODA');
+  background-size: cover; */
+  box-shadow: 10px 3px 30px  #0000009d;
+}
+.card img{
+  position: absolute;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 400px;
+  border-radius: 35px;
+}
+
+.container{
+  padding: 1% 20px;
+  margin-top: 57%;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  bottom: 0;
+  width: 300px;
+  height: 244px;
+  background-color: #536d4f6d;
+  overflow-y: hidden;
+  flex-direction: column;
+  justify-content: space-between;
+  /* filter: blur(10px); */
+  backdrop-filter: blur(20px);
+}
+
+.destName{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+.dscrptn{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+}
+.tags{
+  display: flex;
+  gap: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 6%;
+  margin-bottom: 4%;
+}
+
+.tag1{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 2px;
+  width: 100px;
+  background-color: #ffffff4f;
+  border-radius: 30px;
+  font-size: 13px;
+  gap: 2px;
+}
+.tag2{
+  justify-content: center;
+  display: flex;
+  padding: 2px;
+  width: 100px;
+  background-color: #ffffff4f;
+  border-radius: 30px;
+  font-size: 13px;
+}
+button{
+  width: 100%;
+  padding: 10px;
+  /* border-style: none; */
+  border: none;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border-bottom: 2%;
+  margin-top: 10%;
+  color: black;
+  font-weight: 600;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.538);
+}
