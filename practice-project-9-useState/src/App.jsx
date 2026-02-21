@@ -11,7 +11,7 @@ const App = () => {
         <div className='bg-white/2 backdrop-blur-md w-screen m-5 py-15 rounded-xl text-5xl text-white font-bold flex items-center justify-center'>
           <h1>{num}</h1>
         </div>
-        <button className='py-7 px-8 select-none cursor-pointer bg-red-700/30 font-sans rounded-xl text-white m-5 backdrop-blur-md tracking-widest' onClick={() => {
+        <button className='py-7 px-8 select-none cursor-pointer bg-red-700/30 font-sans hover:bg-red-600/30 active:scale-98 rounded-xl text-white m-5 backdrop-blur-md tracking-widest' onClick={() => {
           setNum(num+1)
         }}>COUNT</button>
       </div>
