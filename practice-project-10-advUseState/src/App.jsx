@@ -4,6 +4,7 @@ const App = () => {
 
   const [obj, setObj] = useState({user:'Zia', age:18})
   const [arr, setArr] = useState([10, 20, 30])
+  const [secObj, setSecObj] = useState({user:"Habibi", age:23})
 
   const btnClicked = () => {
     const newObj = {...obj}
@@ -13,6 +14,8 @@ const App = () => {
     const newArr = [...arr]
     newArr.push(88)
 
+    setSecObj(prev => ({...prev, age:20, user:'Habib'}))
+
     setObj(newObj)
     setArr(newArr)
   }
@@ -21,6 +24,7 @@ const App = () => {
     <div>
       <h1>{obj.user} {obj.age}</h1>
       <h1>{arr}</h1>
+      <h1>{secObj.user}, {secObj.age}</h1>
       <button onClick={btnClicked}>Click</button>
     </div>
   )
